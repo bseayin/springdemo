@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ssh" />
         <module name="ssm" />
+        <module name="util" />
         <module name="web" />
       </profile>
     </annotationProcessing>

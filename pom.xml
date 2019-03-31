@@ -18,6 +18,7 @@
         <module>ssh</module>
         <module>web</module>
         <module>ssm</module>
+        <module>util</module>
     </modules>
 
 
