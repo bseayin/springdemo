@@ -28,7 +28,8 @@ public interface UserMapper {
 
     @Select("select * from user where sex=#{sex} and age=#{age}")
     List<User> selectBySexAge2(User user);
-
+// 如果实体类的属性和数据库里面的列名不一致的情况下，解决方案
+    //参考：https://www.cnblogs.com/nananana/p/8597466.html
     @Select("select * from user where name=#{aa}")
     @Results({@Result(property = "productId", column = "product_id"),
             @Result(property = "name", column = "name")
