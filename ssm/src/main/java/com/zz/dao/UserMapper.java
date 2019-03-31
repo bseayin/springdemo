@@ -1,6 +1,8 @@
 package com.zz.dao;
 
 import com.zz.entity.User;
+import org.apache.ibatis.annotations.Result;
+import org.apache.ibatis.annotations.Results;
 import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
@@ -26,6 +28,12 @@ public interface UserMapper {
 
     @Select("select * from user where sex=#{sex} and age=#{age}")
     List<User> selectBySexAge2(User user);
+
+    @Select("select * from user where name=#{aa}")
+    @Results({@Result(property = "productId", column = "product_id"),
+            @Result(property = "name", column = "name")
+            })
+    List<User> selectByName2(String aa);
 
 
 

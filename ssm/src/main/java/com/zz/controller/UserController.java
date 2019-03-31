@@ -25,7 +25,7 @@ public class UserController {
     @RequestMapping("showname/{name}")
     public List<User> getUserByName(@PathVariable("name") String name){
 
-        return  userService.selectByName(name);
+        return  userService.selectByName2(name);
     }@RequestMapping("show1/{ttt}/{ccc}")
     public List<User> getUserByName(@PathVariable("ttt") String sex,@PathVariable("ccc") Integer age){
 

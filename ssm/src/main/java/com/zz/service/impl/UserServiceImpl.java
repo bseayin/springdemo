@@ -26,4 +26,9 @@ public class UserServiceImpl implements UserService {
     public List<User> selectBySexAge(Integer bb, String aa) {
         return userMapper.selectBySexAge(aa,bb);
     }
+
+    @Override
+    public List<User> selectByName2(String aa) {
+        return userMapper.selectByName2(aa);
+    }
 }
