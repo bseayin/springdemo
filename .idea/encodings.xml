@@ -2,6 +2,11 @@
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurekaclient" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurekaserver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/helloworld.eureka.server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/helloworld.eureka.server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcould-start" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ssh" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ssm" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/util" charset="UTF-8" />
